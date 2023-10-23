@@ -146,7 +146,6 @@ a:hover {
 }
 
 /*SECTIONS*/
-
 section{
     padding-top: 4vh;
     height: 96vh;
@@ -155,22 +154,17 @@ section{
     min-height: fit-content;
 }
 
+
 .section-container{
     display: flex;
-}
-
-#profile{
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    gap: 4rem;
+    height: 80%;
 }
 
 .section__pic-container{
     display: flex;
-    height: 700px;
-    width: 700px;
-    margin: auto;
+    height: 600px;
+    width: 450px;
 }
 
 .section_text{
@@ -196,6 +190,19 @@ section{
     text-align: center;
 }
 
+/* PROFILE */
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+
+.martin_profile{
+    height: 600px;
+}
+
 #socials-container{
     display:flex;
     justify-content: center;
@@ -203,9 +210,55 @@ section{
     gap: 1rem;
 }
 
+/* ABOUT */
 #about{
-    padding-top: 15vh;
+    padding-top: 13vh;
+    position: relative;
 }
+
+.about-pic{
+    height: 50vh;
+    border-radius: 2rem;
+}
+
+.about-containers{
+    gap:2rem;
+    margin-bottom:2rem;
+}
+
+.about-details-container{
+    justify-content:baseline;
+    flex-direction: column;
+    margin-top:3vh;
+    width: 50vw;
+}
+
+.about-containers,
+.about-details-container{
+    display:flex;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.text-container{
+    padding-top: 3vh;
+}
+
+
 /* ICONS */
 .icon{
     cursor: pointer;
