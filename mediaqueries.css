@@ -56,17 +56,32 @@
     }
     #profile{
         height: 83vh;
-        margin-bottom: 0;
+        margin-bottom: 6rem;
+    }
+    #about{
+        padding-top: 0;
+    }
+    #experience{
+        padding-top: 2rem;
     }
     article{
         font-size: 1rem;
     }
     nav{
         height: fit-content;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
     }
     .about-containers, .contact-info-upper-container, .btn-container{
         flex-wrap: wrap;
+    }
+    .about-details-container{
+        width: 90vw;
+    }
+    .home{
+        bottom: -1rem;
+    }
+    .about-me{
+        font-size: 1.5vh;
     }
     .contact-info-container{
         margin: 0;
