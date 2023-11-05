@@ -77,6 +77,9 @@
     .about-details-container{
         width: 90vw;
     }
+    .project-container{
+        flex-direction: column;
+    }
     .home{
         bottom: -1rem;
     }
@@ -114,5 +117,10 @@
     }
     .text-container{
         text-align: justify;;
+    }
+    .skill-name{
+        font-size: 1.4vh;
+        width: 16vw;
+        text-align: center;
     }
 }
